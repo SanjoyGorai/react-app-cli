@@ -31,7 +31,7 @@ function App() : JSX.Element {
 
   return (
     <View>
-        <Button onPress={showToast} title='Hello' color='red' ></Button>
+        <Button onPress={showToast} title='Button One' color='red' ></Button>
         <Button onPress={requestCameraPermission} title='Permission' color='blue'></Button>
     </View>
   );
